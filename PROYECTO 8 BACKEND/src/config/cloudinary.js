@@ -1,0 +1,13 @@
+const cloudinary = require("cloudinary").v2;
+
+const configCloudinary = () => {
+  cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  });
+};
+
+module.exports = { configCloudinary, cloudinary }; 
+
+//no explico mucho aqui , basicamente iniciamos sesion en cloudinary 

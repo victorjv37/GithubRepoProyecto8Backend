@@ -1,0 +1,20 @@
+# Variables de entorno
+.env
+
+# Carpetas de Node.js que no interesan
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Archivos temporales de cloudinary que no queremos
+uploads/
+tmp/
+
+# Logs que no interesan
+logs
+*.log
+
+# Archivos del sistema operativo que no interesan tampoco
+.DS_Store
+Thumbs.db 
